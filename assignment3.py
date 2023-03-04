@@ -47,7 +47,7 @@ def process_data(urldata):
         browser = row[2]
         # GIF, JPG, JPEG, PNG
         # Try to do this with a regular expression
-        if re.search(r"\.JPG|.JPEG|\.GIF|\.PNG", path_to_file, re.IGNORECASE):
+        if re.search(r"\.JPG|\.JPEG|\.GIF|\.PNG", path_to_file, re.IGNORECASE):
             image_counter = image_counter + 1
         total_hits += 1
 
